@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./style.css">
+    <!-- <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet"> -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <!-- FAVICON ICON -->
+    <link rel="shortcut icon" href="./image/favicon.png" type="image/x-icon">
+    <!-- GOOGLE FONT FAMILY LINK -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
+    <!-- FONTAWESOME LINK -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./logo.png" type="image/x-icon">
+    <title>asanSearch.com</title>
+</head>
+<body>
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title"id="title">Modal Header</h4>
+        <button type="button" class="close text-right" data-dismiss="modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="form-group">
+            <label for="version">Version</label>
+            <input type="text" class="form-control" id="version" placeholder="version..."/>
+        </div>
+        <div class="form-group">
+                <label for="ram">Ram</label>
+                <input type="text" class="form-control" id="ram" placeholder="Ram..."/>
+        </div>
+        <div class="form-group">
+            <label for="storage">Storage</label>
+            <input type="text" class="form-control" id="storage" placeholder="Internal storage..."/>
+        </div>
+        <div class="form-group">
+            <label for="camera">Camera</label>
+            <input type="text" class="form-control" id="camera" placeholder="Camera..."/>
+        </div>
+        <div class="form-group">
+            <label for="display">Display</label>
+            <input type="text" class="form-control" id="display" placeholder="Display..."/>
+        </div>
+        <div class="form-group">
+            <label for="finger">Fingerprint Sensor</label>
+            <input type="text" class="form-control" id="finger" placeholder="Fingerprint Sensor..."/>
+        </div>
+        <div class="form-group">
+            <label for="ava">Avability</label>
+            <input type="text" class="form-control" id="ava" placeholder="Avability..."/>
+        </div>
+      </div>
+      <div class="modal-footer" id="footer">
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+
+    <div class="heading container-fluid text-center">
+        <h1 class="text-primary">asan<span style="font-family: 'Fredoka One', cursive;">Search</span><sub class="text-danger">.com</sub></h1>
+    </div>
+    <br />
+    <div class="container-fluid text-center">
+        <div class="row text-center">
+        <div class="col-sm-11">
+            <input style="margin-left: 45px" type="text" class="input form-control rounded shadow-sm p-3 mb-5 bg-white" placeholder="asanSearch here..." id="getData"/>
+        </div>
+        <div class="col-sm-1">    
+            <button type="button" class="btn btn-outline-primary" id="btn">search</button>
+        </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <table class="table table-bordered" id="show">
+            <thead class="thead-dark">
+            <tr class="text-center shadow-lg p-3 mb-5 bg-dark rounded">
+                <th>Modal</th>
+                <th>Version</th>
+                <th>Ram</th>
+                <th>Internal Storage</th>
+                <th>Camera</th>
+                <th>Display</th>
+                <th>fingerPrint Sensor</th>
+                <th>Avability</th>
+                <th colspan="2">Editing area</th>
+            </tr>
+        </thead>
+        </table>
+        <br /><br /><br />
+    </div>
+<!-- modal
+    <button id="modalBtn" class="button1">Click here</button>
+
+    <div id="simpleModal" class="modal">
+        <div class="modal-content">
+            <div class="header">
+            <span class="closeBtn">&times;</span>
+            <h1>Header</h1>
+            <hr />    
+            </div>
+            <div class="body">
+            <h3>Welcome to edit some thing</h3>
+            <input type="text" placeholder="Enter" id="input" class="input" />
+            </div>
+            <div class="footer">
+                <hr />
+                <input type="button" id="btn" class="button2" value="Submit"/>
+            </div>
+        </div>
+    </div> -->
+
+
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script> -->
+    <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script> -->
+    <script src="./app.js"></script>
+</body>
+</html>
